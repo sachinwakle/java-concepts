@@ -28,7 +28,7 @@ public class PerformVer2 {
 			public int compare(Person o1, Person o2) {
 				return o1.getLastName().compareToIgnoreCase(o2.getLastName());
 			}
-		});
+		});	
 		printConditionally(persons, p->true);
 		
 		
