@@ -34,5 +34,11 @@ public class Person {
 		this.age = age;
 	}
 	
+	@Override
+	public String toString() {
+		return "FirstName: "+getFirstName()
+				+", LastName: "+getLastName()
+				+", Age: "+getAge();
+	}
 	
 }
