@@ -1,4 +1,4 @@
-package io.sachin.lambda;
+package io.sachin.lambda.streams;
 
 import java.util.Arrays;
 import java.util.List;
