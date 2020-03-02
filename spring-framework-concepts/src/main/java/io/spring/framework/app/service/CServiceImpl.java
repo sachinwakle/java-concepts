@@ -8,7 +8,7 @@ import org.springframework.stereotype.Component;
 public class CServiceImpl implements BService {
 
     @Override
-    public void Display() {
+    public void display() {
 	System.out.println("From C Service...");
     }
 

@@ -8,7 +8,7 @@ public class AServiceImpl {
 
     public void fromAService() {
 	System.out.println("From A service calling...");
-	bservice.Display();
+	bservice.display();
     }
 
     public void setBservice(BService bservice) {
